@@ -18,7 +18,7 @@ function Brand({ show, metadata }) {
       if(metadata) {
         setTimeout(() => {
           console.log("show again");
-          brand.style.display = "block";
+          brand.style.display = "flex";
           brand.style.justifyContent= "flex-end";
         }, (metadata.duration * 1000) - 3000);
       }
